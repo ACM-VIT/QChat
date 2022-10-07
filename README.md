@@ -3,10 +3,10 @@
 <img src="https://raw.githubusercontent.com/Malika01/hacktoberfest-readme/master/Final.png">
 </p>
 
-<h2 align="center"> Quantum-Blockchain </h2>
+<h2 align="center"> QChat </h2>
 
 <p align="center"> 
-Designing an asymmetric quantum key distribution algorithm to implement of Proof of Work (PoW) protocol for blockchain applications.
+Mobile chat application with end-to-end encryption using QKD.
 </p>
 
 <p>
@@ -56,10 +56,7 @@ Designing an asymmetric quantum key distribution algorithm to implement of Proof
   
 ---
 ## Overview
-
-In 2008, Satoshi Nakamoto in his whitepaper titled "Bitcoin Whitepaper" conceptualized a consensus-based, decentralized network that is secured by using cryptographic hash values. The way this blockchain works is, when a contributor or "miner" wants to add a new block to the chain (transaction) they must do some work that is approved by all the nodes on the blockchain. This work generally involves solving a mathematical problem (Hash Value) by finding a valid nonce for that block. This concept is known as the Proof of Work protocol.
-
-This project aims at designing a quantum key distribution algorithm to secure all blockchain transactions. QKD is a cryptographic protocol that generates secret or private keys whichc are in entangled state. QKD is currently symmetric i.e. it does not provide a means to authenticate the QKD transmission source. Most blockchain make use of asymmetric or public-key cryptography which allows authentication using digital signatures. Examples include RSA and Eliptical Curve Crytopgraphy. Once the algorithm is made we can use it to create our very own quantum crypto-wallet by using JavaScript.
+This project aims to make a flutter mobile app for chatting purposes. The app will have a simple and clean UI with an easy login and logout feature. Then the user can use their username to send others friend requests. The way this works is when a user sends a request, a string of qubits in random state is generated in the backend. If the other user decides to accept the request, they will measure the incoming set of qubits to generate a private key using Quantum Key Distrubition(QKD). This key will be used to secure their chats by end to end encryption of their texts. 
 
 ---
 ## Usage
