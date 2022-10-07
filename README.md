@@ -56,7 +56,7 @@ Mobile chat application with end-to-end encryption using QKD.
   
 ---
 ## Overview
-This project aims to make a flutter mobile app for chatting purposes. The app will have a simple and clean UI with an easy login and logout feature. Then the user can use their username to send others friend requests. The way this works is when a user sends a request, a string of qubits in random state is generated in the backend. If the other user decides to accept the request, they will measure the incoming set of qubits to generate a private key using Quantum Key Distrubition(QKD). This key will be used to secure their chats by end to end encryption of their texts. 
+This project aims to make a flutter mobile app for chatting purposes. The app will have a simple and clean UI with an easy login and logout feature. Then the user can use their username to send others friend requests. The way this works is when a user sends a request, a string of qubits in random state is generated in the backend. If the other user decides to accept the request, they will measure the incoming set of qubits to generate a private key using Quantum Key Distrubition(QKD). This key will be used to secure their chats by end to end encryption of their texts. We will be using BB84 protocol, based on the polarization of a single photon
 
 ---
 ## Usage
@@ -72,5 +72,6 @@ git merge
 ---
 ## Authors
 
-**Authors:** <!-- [author1's name](link to their github profile), [author2's name](link to their github profile) .. -->  
+**Authors:** [Manav Taluja](https://github.com/Mayan-Ryan) 
+
 **Contributors:** <!-- Generate contributors list using this link - https://contributors-img.web.app/preview -->
