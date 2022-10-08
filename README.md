@@ -70,4 +70,9 @@ git merge
 
 **Authors:** [Manav Taluja](https://github.com/Mayan-Ryan) 
 
-**Contributors:** https://contributors-img.web.app/preview
+**Contributors:** 
+
+<a href="https://github.com/Mayan-Ryan/QChat/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Mayan-Ryan/QChat" />
+</a>
+
