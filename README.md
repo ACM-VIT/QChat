@@ -6,7 +6,7 @@
 <h2 align="center"> QChat </h2>
 
 <p align="center"> 
-Mobile chat application with end-to-end encryption using QKD.
+Mobile chat application with end-to-end encryption using Quantum Key Distribution (QKD)
 </p>
 
 <p>
